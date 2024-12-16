@@ -1,6 +1,6 @@
 
 
-
+###################################################
 
 is_winter_holiday = '2024.12.23' and '2025.01.01'
 is_eastern = '2025.04.07' and '2025.04.19'
@@ -30,7 +30,11 @@ else:
 
 
 
-date = input('Datum eingeben zu sehen ob Arbeit oder Urlaub ist. Year/month/day: ')
+##################################################################################
+
+
+
+date = input('Datum eingeben zu sehen ob Arbeit oder Urlaub ist. yyy.mm.dd: ')
 
 is_winter = date >= '2024.12.23' and date <='2025.01.01'
 is_eastern = date >='2025.04.07' and date <='2025.04.19'
@@ -42,9 +46,13 @@ is_summerholiday = date >= '2025.07.03' and date <= '2025.08.13'
 is_autumnholiday = date >= '2025.10.13' and date <= '2025.10.25'
 
 
-
+# ''Wenn'' #
 if is_winter:
-    print('Winterferien vom 23.12.2024 - 01.01.2025')
-elif is_eastern >= date and date <= is_eastern:
+    print('Winterferien')
+#'' ansonsten wenn'' #
+elif is_eastern:
     print('Osternferien')
+# '' Ansonsten'' #
+elif is_eastern_01:
+    print('Feiertag')
 
