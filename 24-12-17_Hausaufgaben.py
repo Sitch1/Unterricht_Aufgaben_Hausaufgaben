@@ -56,6 +56,9 @@ calculator()
 #### Aufgabe 2. #####
 
 
+### !!!!. https://infolab.cs.uni-saarland.de/portfolio-2/schere-stein-papier-mit-python/ .!!!! ###
+
+
 import random
 
 
