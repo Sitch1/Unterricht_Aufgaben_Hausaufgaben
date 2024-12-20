@@ -102,3 +102,5 @@ while True:
          
          
     spiel_starten()
+
+    
