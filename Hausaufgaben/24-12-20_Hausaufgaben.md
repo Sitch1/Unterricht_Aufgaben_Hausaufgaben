@@ -46,7 +46,7 @@ print("Die letzte Zahl ist:", zahlen[-1])
 - Schreibe die Arbeitsschritte auf.
 
 - 1. Liste erstellen:
-Um eine liste mit Zahlen zu erstellen, muss eine variable festgelgt werden ```zahlen = [1, 2, 3, 4, 5]```. Mit ````= [1, 2, 3, 4, 5]``` wird der Variable ```zahl``` der liste angehang. Die liste wird mit ```[]```` erstellt.
+Um eine liste mit Zahlen zu erstellen, muss eine variable festgelgt werden ```zahlen = [1, 2, 3, 4, 5]```. Mit ```= [1, 2, 3, 4, 5]``` wird der Variable ```zahl``` der liste angehang. Die liste wird mit ```[]``` erstellt.
 - 2. Mit ```print("Die erste Zahl ist:", zahlen[0])``` wird nun aus der angehangen list die erste zahl ```(1)``` angezigt und mit ```print("Die letzte Zahl ist:", zahlen[-1])```, die letzte zahl in der liste ```(5)````
 - Warum aber ```[0]``` und ```[-1]```:
 

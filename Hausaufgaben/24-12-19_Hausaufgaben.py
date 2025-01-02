@@ -17,21 +17,21 @@
         #!!!. Beispiel . !!!
 
     #Aktuelles Datum und Uhrzeit anzeigen:
-        import datetime
+import datetime
         
-        jetzt = datetime.datetime.now() # Holt das aktuelle Datum und die Uhrzeit
-        print(jetzt)
-        print = (jetzt)
+jetzt = datetime.datetime.now() # Holt das aktuelle Datum und die Uhrzeit
+print(jetzt)
+print = (jetzt)
 
     #Nur das heutige Datum bekommen:
-        import datetime
+import datetime
 
-        heute = datetime.date.today()  # Holt nur das heutige Datum
-        print(heute)
+heute = datetime.date.today()  # Holt nur das heutige Datum
+print(heute)
 
     #Zeitberchnung (z.B. 3 Tage plus rechnen von heute)
-        import datetime
+import datetime
 
-        jetzt =datetime.date.today()
-        berechnung = jetzt + datetime.timedelta(days=2) # 2 Tage hinzufügen
-        print(berechnung)
+jetzt =datetime.date.today()
+berechnung = jetzt + datetime.timedelta(days=2) # 2 Tage hinzufügen
+print(berechnung)
