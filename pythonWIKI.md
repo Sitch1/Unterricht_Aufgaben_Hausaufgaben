@@ -20,8 +20,7 @@
         import datetime
         
         jetzt = datetime.datetime.now() # Holt das aktuelle Datum und die Uhrzeit
-        print(jetzt)
-        print = (jetzt)
+        
 
     #Nur das heutige Datum bekommen:
         import datetime
