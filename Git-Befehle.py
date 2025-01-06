@@ -26,19 +26,19 @@ while True:
     for key in my_dict.keys():
         print(key)
 
-    my_userinput = input("\nGib dein Git-Befehl ein für weitere Informationen: ").strip().capitalize().lower()
+    my_userinput = input("\nGib dein Git-Befehl ein für weitere Informationen: ").strip().capitalize()
     sum = 0
-
-
 
     if my_userinput in my_dict:
         print(f"\nDer Befehl {my_userinput} bedeutet: {my_dict[my_userinput]}")
     else:
-        print("Der Befehl '{my_userinput}' ist nicht bekannt")
+        print(f"Der Befehl {my_userinput} ist nicht bekannt")
 
-    
-    
+
     continue_input = input("\nMöchtest du weitermachen? (ja/nein): ").strip().lower()
     if continue_input != "ja":
         print("Programm beendet")
         break
+    
+    
+   
