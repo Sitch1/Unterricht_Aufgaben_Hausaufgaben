@@ -46,7 +46,7 @@ anzahl_zeilen = int(input("Gib die Anzahl der Zeilen ein: "))
 
 # Verschachtelte Schleifen, um das Muster zu erstellen
 for i in range(1, anzahl_zeilen + 1):  # Äußere Schleife für die Zeilen
-    for j in range(i):  # Innere Schleife für die Sterne in jeder Zeile
+    for _ in range(i):  # Innere Schleife für die Sterne in jeder Zeile
         print("*", end="")  # Ein Stern wird ohne Zeilenumbruch ausgegeben
     print()  # Neue Zeile nach jedem Durchlauf der inneren Schleife
     
