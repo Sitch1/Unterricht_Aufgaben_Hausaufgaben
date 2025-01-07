@@ -12,6 +12,15 @@ print("Der String mit der Variable user_input ist ", len(user_input), "zeichen l
 print("In deinem Text ist", user_input.count(user), "mal erhalten.")
 
 
+text = ("Gebe bitte dein Text ein:").lower()
+buchstaben = input
+
+counter = 0
+
+
+
+
+
 
 # Aufgabe 2: Summen und Durchschnitt berechnen (40 Punkte)
 # Schreibe ein Programm, das:
@@ -49,6 +58,13 @@ for i in range(1, anzahl_zeilen + 1):  # Äußere Schleife für die Zeilen
     for _ in range(i):  # Innere Schleife für die Sterne in jeder Zeile
         print("*", end="")  # Ein Stern wird ohne Zeilenumbruch ausgegeben
     print()  # Neue Zeile nach jedem Durchlauf der inneren Schleife
+
+
+    def print_star(x):
+        for i in range(x):
+            print("x" * i)
+
+    print_star(10)
     
 
 
