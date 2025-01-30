@@ -34,7 +34,7 @@ app = Flask(__name__)
 def home():
     return "Willkomen, hier sind einfach Flask-Get-Anfragen."
 
-@app.route("/brand/<id>")
+@app.route("/brand/<id>", methods=["GET"])
 def get_item(id):
     clothes = request.args.get("clothes")
     color = request.args.get("color")
@@ -42,16 +42,14 @@ def get_item(id):
     return f"Die Brand-ID: {id}, Clothes: {clothes} the Color: {color} and condition is: {condition} "
 
 
-@app.route("/product/<product_id>")
+@app.route("/product/<product_id>", methods=["GET"])
 def get_product(product_id):
-    product = request.args.get(product)
-    product_id = request.args.get(product_id)
-    return f"Hier die Route 2 zum Product: {product} und die product-ID: {product_id}"
+    return f"Product-ID: {product_id}"
 
-@app.route("/search")
+@app.route("/search", methods=["GET"])
 def get_search():
     query = request.args.get("query")
-    return f"Das Prdoukt: {query}"
+    return f"Das Prdoukt: {query}"  
 
 
 if __name__ == "__main__":
