@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackUp</title>
+</head>
+<body>
+    <h1>1. Was sind Backups</h1>
+   <p>
+    Backups sind Sicherungskopien von Daten, die erstellt werden, um Datenverluste durch Hardwarefehler, Softwareprobleme, Cyberangriffe oder menschliche Fehler zu vermeiden. 
+    Sie ermöglichen die Wiederherstellung von Daten im Falle eines Verlusts oder einer Beschädigung.
+   </p>
+
+   <h3>Arten von Backups</h3>
+   <ol>
+        <li>Vollständiges Backup – Eine komplette Kopie aller Daten.</li>
+        <li>Inkrementelles Backup – Sichert nur die Änderungen seit dem letzten Backup.</li>
+        <li>Differentielles Backup – Sichert alle Änderungen seit dem letzten vollständigen Backup.</li>
+        <li>Spiegelung (Mirroring) – Eine Echtzeit-Kopie der Daten auf einem anderen Speichermedium.</li><br>
+
+    <ul>
+        <li><b>Lokale Backups</b> (z. B. externe Festplatten, NAS-Systeme)</li>
+        <li><b>Cloud-Backups</b> (z. B. Google Drive, OneDrive, Dropbox)</li>
+        <li><b>Offline-Backups</b> (z. B. USB-Sticks, DVDs, Bänder)</li>
+
+        <pre>
+            import shutil
+            import datetime
+            
+            backup_source = "C:/Users/Benutzer/Dokumente"
+            backup_target = "D:/Backup_" + datetime.datetime.now().strftime("%Y%m%d%H%M")
+            
+            shutil.copytree(backup_source, backup_target)
+            print(f"Backup erfolgreich: {backup_target}")
+        </pre>
+        
+    </ul>
+    
+   </ol>
+</body>
+</html>
