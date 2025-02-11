@@ -1,0 +1,95 @@
+* {
+    background-color: rgb(240, 245, 234);
+    font-family: Verdana, Verdana, "Geneva", Tahoma, sans-serif
+    color: brown;
+}
+
+
+
+
+
+
+
+
+a {
+    color: rgb(189, 62, 62);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 45px;
+    color: rgb(198, 140, 79);
+    text-align: center;
+}
+
+
+
+
+
+.aufgabe {
+    color: rgb(176, 76, 46);
+    font-size: 35px;
+    text-align: center;
+
+}
+
+
+    
+        
+
+
+
+
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: red; }
+        }
+
+        .bunter-text {
+            font-size: 45px;
+            font-weight: bold;
+            animation: colorChange 2s infinite;
+        }
+
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+        @keyframes pulsieren {
+            0% { color: red; }
+            10% { color: orange; }
+            20% { color: yellow; }
+            30% { color: green; }
+            40% { color: blue; }
+            50% { color: indigo; }
+            60% { color: violet; }
+            70% { color: pink; }
+            80% { color: lime; }
+            90% { color: brown; }
+            100% { color: red; }
+        }
+
+        .pulsierender-text {
+            font-size: 24px;
+            text-align: center;
+            font-weight: bold;
+            animation: pulsieren 6s infinite; /* Animation auf den Text anwenden */
+            transition: color 0,5s ease-in-out;
+        }
+    

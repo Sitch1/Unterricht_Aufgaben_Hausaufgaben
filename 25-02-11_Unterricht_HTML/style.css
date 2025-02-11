@@ -1,0 +1,101 @@
+
+
+/* Überschrift h1 */
+h1 {
+    color: blue; /* Setzt die Schriftfarbe auf Blau */
+}
+
+/* Einführungstext */
+.intro {
+    font-size: 20px; /* Setzt die Schriftgröße des Einführungstextes auf 20px */
+}
+
+/* Hintergrund des Body */
+body {
+    background-color: deepskyblue; /* Setzt den Hintergrund des Body auf die Farbe Deepskyblue */
+}
+
+/* Button-Stile */
+.btn {
+    color: white; /* Setzt die Textfarbe des Buttons auf Weiß */
+    background-color: green; /* Setzt die Hintergrundfarbe des Buttons auf Grün */
+    border-radius: 10px; /* Abgerundete Ecken mit einem Radius von 10px */
+}
+
+/* Hover-Effekt für den Button */
+.btn:hover {
+    background-color: darkgreen; /* Ändert die Hintergrundfarbe des Buttons auf Dunkelgrün, wenn die Maus darüber schwebt */
+}
+
+/* Box-Stile */
+.box {
+    background-color: rgb(124, 211, 240); /* Setzt den Hintergrund der Box auf einen Blauton */
+    width: 200px; /* Setzt die Breite der Box auf 200px */
+    height: 100px; /* Setzt die Höhe der Box auf 100px */
+    border-radius: 15px; /* Abgerundete Ecken mit einem Radius von 15px */
+}
+
+/* Listenelemente ohne Aufzählungszeichen und mit Abstand */
+.liste li {
+    margin-bottom: 15px; /* Fügt einen Abstand von 15px nach unten zu jedem Listenelement hinzu */
+    list-style-type: none; /* Entfernt die Punkte der Liste */
+    padding-left: 0; /* Entfernt den Standard-Einzug der Liste */
+}
+
+/* Bild mit kreisförmiger Form */
+.bild {
+    border-radius: 50%; /* Macht das Bild kreisförmig */
+    width: 175px; /* Setzt die Breite des Bildes auf 175px */
+    height: 175px; /* Setzt die Höhe des Bildes auf 175px */
+    object-fit: cover; /* Stellt sicher, dass das Bild den Kreis ausfüllt, ohne das Seitenverhältnis zu verzerren */
+}
+
+/* Hover-Effekt für das Bild (Vergrößerung) */
+.bild:hover {
+    transform: scale(1.1); /* Vergrößert das Bild um 10%, wenn die Maus darüber schwebt */
+}
+
+/* Bild-Animation: Langsame Fade-in und Fade-out-Effekte */
+.bild {
+    animation: fadeInOut 4s ease-in-out infinite; /* Wendet eine wiederholte Fade-Animation an */
+}
+
+/* Definition der Fade-Animation */
+@keyframes fadeInOut {
+    0% {
+        opacity: 1; /* Bild vollständig sichtbar zu Beginn */
+    }
+    50% {
+        opacity: 0; /* Bild wird in der Mitte der Animation unsichtbar */
+    }
+    100% {
+        opacity: 1; /* Bild wird am Ende der Animation wieder sichtbar */
+    }
+}
+
+
+
+  .btn {
+    padding: 10px 20px; /* Button-Größe */
+    border: none; /* Entfernt den Standardrand */
+    background-color: #4CAF50; /* Button-Hintergrundfarbe */
+    color: white; /* Button-Textfarbe */
+    font-size: 16px; /* Schriftgröße */
+    cursor: pointer; /* Mauszeiger wird zu einer Hand */
+    transition: box-shadow 0.3s ease; /* Sanfter Übergang für den Schatten */
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Schatten bei Hover */
+  }
+
+
+  body {
+    background: linear-gradient(to right, #bfff5f, #e8fe7b); /* Sanfter Farbverlauf von Grün (#bfff5f) zu Gelb (#feb47b) */
+  }
+
+
+
+
+
+
